@@ -1,0 +1,182 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5em;
+}
+
+h3 {
+    padding-bottom: 30px;
+    font-weight: 600;
+    font-size: 1.1em;
+}
+
+/* HEADER */
+header {
+    background-color: #489EC2;
+    border-bottom: black 2px;
+    text-align: center;
+    height: 30vh;
+    padding: 0;
+    border-bottom: 6px solid #307695;
+}
+
+
+header h1 {
+    padding: 40px;
+    padding-bottom: 70px;
+    text-transform: uppercase;
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+
+header span {
+    color: #489EC2;
+    background-color: white;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+header h2 {
+    font-variant: small-caps;
+}
+
+
+/* MAIN */
+
+hr {
+    border-top: 1px dashed;
+}
+
+main {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* ELEMENTI NEL MAIN */
+figure {
+    text-align: center;
+}
+
+#pc {
+    width: 75vw;
+    height: 22vh;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+figcaption {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main h2 {
+    text-align: center;
+    padding: 40px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: #307695;
+}
+
+address {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    line-height: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+b {
+    font-weight: 600;
+}
+
+#Info p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 30px;
+}
+
+blockquote {
+    background-color: lightgrey;
+    padding-top: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 100;
+    line-height: 1.5;
+    border-radius: 30px;
+}
+
+#presentazione p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+    padding-bottom: 60px;
+}
+
+#presentazione2 p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+mark {
+    background-color: #307695;
+    color: white;
+}
+
+strong {
+    color: #307695;
+}
+
+a:link,
+a:visited {
+    color: red;
+}
+
+#competenze p {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+#competenze ul {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+    padding-bottom: 30px;
+    padding-left: 60px;
+}
+
+#competenze2 dl {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5em;
+    text-align: justify;
+    padding-bottom: 30px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: #353535;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+    color: white;
+    line-height: 1.7em;
+    border-top: 6px solid #307695;
+}
+
+kbd {
+    color: yellow;
+    font-style: italic;
+}
+
+small {
+    color: gray;
+}
